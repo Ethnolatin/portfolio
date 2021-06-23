@@ -1,0 +1,68 @@
+/* ========== FONTS ========== */
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(../../fonts/helvetica-lt.ttf)
+    // src: url(../src/fonts/helvetica-lt.ttf)
+  }
+
+  @font-face {
+    font-family: "Helvetica-Thin";
+    src: url(../..//fonts/helvetica-lt-35-thin.ttf);
+  }
+
+/* ========== GENERAL ========== */
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Helvetica', sans-serif;
+    color: #4E342E;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Helvetica-Thin', sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 0.05rem;
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #7CB342;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+}
+
+p {
+    text-align: center;
+    margin: 0;
+}
+
+.App-header {
+    // background-color: pink;
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border-radius: 5rem;
+    height: 10rem;
+    border: 5px solid #8BC34A;
+}
+
