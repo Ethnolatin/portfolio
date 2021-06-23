@@ -12,6 +12,7 @@
     "sass": "^1.35.1",
     "web-vitals": "^1.0.1"
   },
+  "homepage": "https://ethnolatin.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
