@@ -16,6 +16,7 @@
 body {
     max-width: 1200px;
     margin: auto;
+    padding: 1rem;
     font-family: 'Helvetica', sans-serif;
     color: #4E342E;
 }
@@ -24,24 +25,21 @@ h1 {
     text-align: center;
     font-family: 'Helvetica-Thin', sans-serif;
     font-weight: normal;
-    font-size: 2.5rem;
 }
 
 h2 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.8rem;
     letter-spacing: 0.05rem;
     margin-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #7CB342;
 }
 
 h3 {
     text-align: center;
-    text-transform: uppercase;
-    margin-top: 0.5rem;
-    font-size: 1.3rem;
+    // text-transform: uppercase;
+    margin-top: 1rem;
+    border-top: 2px solid #7CB342;
+    padding-top: 1rem;
     letter-spacing: 0.05rem;
 }
 
@@ -50,19 +48,25 @@ p {
     margin: 0;
 }
 
-.App-header {
-    // background-color: pink;
-    width: 90%;
+main {
+    background-color: pink;
+    width: 100%;
     margin: auto;
-    padding-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-img {
-    border-radius: 5rem;
-    height: 10rem;
+section {
+    background-color: grey;
+    width: 90%;
+}
+
+.app-logo {
+    display: block;
+    margin: auto;
+    border-radius: 4rem;
+    height: 8rem;
     border: 5px solid #8BC34A;
 }
 
