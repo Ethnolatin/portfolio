@@ -4,7 +4,7 @@ export const Skills = () => {
     return (
         <section>
             <h3>Compétences</h3>
-            <div className='skillsList'>
+            <div className='list'>
                 {skills.map((skill, index) => {
                     return (<p key={index} className='skill'>{skill}</p>)
                 })}

@@ -21,11 +21,12 @@ h1 {
   font-family: "Helvetica-Thin", sans-serif;
   font-weight: normal;
   font-size: 1.8rem;
+  letter-spacing: 0.1rem;
 }
 
 h2 {
   text-align: center;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.08rem;
   margin-top: 0.5rem;
 }
 
@@ -61,10 +62,10 @@ section {
   margin: auto;
   border-radius: 4rem;
   height: 8rem;
-  border: 5px solid #8BC34A;
+  border: 5px solid #7CB342;
 }
 
-.skillsList {
+.list {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -77,6 +78,47 @@ section {
   padding: 0.5rem;
   background-color: #4E342E;
   color: white;
+}
+
+.experience {
+  width: 70%;
+  position: relative;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  padding: 0.5rem;
+  background-color: #7CB342;
+}
+.experience::before {
+  content: "";
+  height: calc(100% + 20px);
+  width: 5px;
+  background-color: #7CB342;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+}
+.experience::after {
+  content: "";
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #4E342E;
+  position: absolute;
+  top: -10px;
+  left: -25px;
+}
+.experience p {
+  text-align: left;
+}
+
+button {
+  margin: 1.5rem 0 0.5rem 0;
+  border: 2px solid #7CB342;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
