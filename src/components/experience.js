@@ -4,9 +4,17 @@ const experiences = [
         content: "Diplômé d'un titre professionnel de développeur web"
     },
     {
-        title: "Projet de fin d'études - mai 2021",
-        content: "réalisation d'un MVP de réseau social d'entreprise"
+        title: "Projet de fin de formation - mai 2021",
+        content: "Réalisation d'un MVP de réseau social d'entreprise"
     },
+    {
+        title: "Projet de formation - sept. 2020",
+        content: "Réalisation d'une page web en HTML et CSS"
+    },
+    {
+        title: "Enzym - juin-nov. 2018",
+        content: "Participation à la landing page enzym.io"
+    }
 ]
 
 export const Experience = () => {
