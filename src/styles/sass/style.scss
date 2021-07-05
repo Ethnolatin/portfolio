@@ -217,14 +217,14 @@ section {
     }
     &-image {
         display: inline-block;
-        max-height: 95vh;
+        max-height: calc(95vh - 3.1rem);
         max-width: 95vw;
         padding: 1rem;
         margin: auto;
         & img {
             display: block;
-            height: 95%;
-            width: 95%;
+            max-height: 90%;
+            max-width: 90%;
             border: 1px solid white;
             border-radius: 5px;
             padding: 0.5rem;

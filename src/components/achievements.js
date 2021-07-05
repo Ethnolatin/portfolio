@@ -3,18 +3,18 @@ import { MoreImagesModal } from "./more-images"
 
 const achievements = [
     {
-        imgName: 'photo_id-220.jpg',
-        title: 'test3',
-        description: '',
-        linkUrl: 'https://ethnolatin.com',
-        imageList: []
-    },
-    {
-        imgName: 'enzym-1.png',
+        imgName: 'enzym-welcome.png',
         title: 'enzym',
         description: 'Landing page enzym.io : mise en page, mise en place de boutons, traductions, etc.',
         linkUrl: 'https://www.enzym.io',
-        imageList: ['enzym-1.png', 'enzym-2.png', 'enzym-3.png']
+        imageList: ['enzym-welcome.png', 'enzym-map.png', 'enzym-team.png']
+    },
+    {
+        imgName: 'groupomania-welcome.png',
+        title: 'Groupomania',
+        description: "MVP de réseau social d'entreprise façon Reddit (ReactJS - NodeJS - MySQL)",
+        linkUrl: 'https://github.com/Ethnolatin/FredericDuchesne_7_04012021',
+        imageList: ['groupomania-identification.png', 'groupomania-inscription.png', 'groupomania-homepage.png', 'groupomania-article.png', 'groupomania-userslist.png', 'groupomania-add.png', 'groupomania-modify.png']
     },
     {
         imgName: 'oh-my-food-1.png',
@@ -23,6 +23,14 @@ const achievements = [
         linkUrl: 'https://ethnolatin.github.io/FredericDuchesne_3_08092020/',
         imageList: ['oh-my-food-1-mobile.png', 'oh-my-food-2-mobile.png', 'oh-my-food-3-mobile.png', 'oh-my-food-3-tablet.png', 'oh-my-food-3-desktop.png']
     },
+    {
+        imgName: 'cv-header.png',
+        title: 'CV',
+        description: 'Mon CV en ligne en HTML & CSS responsive',
+        linkUrl: 'https://ethnolatin.github.io/CV-html-css/',
+        imageList: []
+    },
+    
 ]
 
 export class Achievements extends React.Component {
@@ -74,10 +82,11 @@ export class Achievements extends React.Component {
                                     <p>{achievement.description}</p>
                                 </div>
                                 <div className="card-footer">
-                                    <button onClick={() => this.handleClick(achievement)}>Images du projet</button>
                                     <button onClick={() => {window.open(`${achievement.linkUrl}`, '_blank')}}>Page du projet</button>  
+                                    {achievement.imageList.length ?
+                                        <button onClick={() => this.handleClick(achievement)}>Images du projet</button>
+                                        : ""}
                                 </div>
-                                
                             </div>
                         )
                     })}
