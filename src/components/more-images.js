@@ -28,7 +28,7 @@ export class MoreImagesModal extends React.Component {
                     {imageList.map(image => {
                         const imgUrl=require(`../images/${image}`).default
                         return (
-                            <div key={title+image} className='modale-image'>
+                            <div key={title+image}>
                                 <img src={imgUrl} alt={image} />
                             </div>
                         )

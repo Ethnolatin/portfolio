@@ -181,7 +181,7 @@ section button {
   bottom: auto;
   transform: translate(-50%, -50%);
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background-color: black;
   color: white;
 }
@@ -208,21 +208,14 @@ section button {
   justify-content: space-around;
   min-height: 50px;
 }
-.modale-image {
+.modale-body img {
   display: inline-block;
-  max-height: calc(95vh - 3.1rem);
-  max-width: 95vw;
-  padding: 1rem;
-  margin: auto;
-}
-.modale-image img {
-  display: block;
-  max-height: 90%;
-  max-width: 90%;
+  max-height: 80vh;
+  max-width: 80vw;
   border: 1px solid white;
-  border-radius: 5px;
-  padding: 0.5rem;
-  margin: auto;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin: 0.5rem auto;
   object-fit: contain;
 }
 
