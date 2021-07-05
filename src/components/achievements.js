@@ -82,9 +82,9 @@ export class Achievements extends React.Component {
                                     <p>{achievement.description}</p>
                                 </div>
                                 <div className="card-footer">
-                                    <button onClick={() => {window.open(`${achievement.linkUrl}`, '_blank')}}>Page du projet</button>  
+                                    <button onClick={() => {window.open(`${achievement.linkUrl}`, '_blank')}}>Page web</button>  
                                     {achievement.imageList.length ?
-                                        <button onClick={() => this.handleClick(achievement)}>Images du projet</button>
+                                        <button onClick={() => this.handleClick(achievement)}>Images</button>
                                         : ""}
                                 </div>
                             </div>

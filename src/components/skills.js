@@ -1,4 +1,4 @@
-const skills = ['HTML/CSS', 'JavaScript', 'React', 'Git/Github', 'Anglais', 'Espagnol']
+const skills = ['HTML/CSS', 'JavaScript', 'ReactJS', 'Git/Github', 'Anglais', 'Espagnol']
 
 export const Skills = () => {
     return (
