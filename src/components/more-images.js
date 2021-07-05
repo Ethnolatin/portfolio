@@ -9,7 +9,6 @@ export class MoreImagesModal extends React.Component {
     }
 
     render() {
-        console.log(this.props)
         const {title, imageList, showModal} = this.props
         return (
             <Modal
@@ -20,9 +19,11 @@ export class MoreImagesModal extends React.Component {
                 ariaHideApp={false}
             >
                 <div className='modale-header'>
-                    <FaTimes onClick={this.handleCloseModal} />
+                    <div className='modale-close'>
+                        <FaTimes onClick={this.handleCloseModal} />
+                    </div>
+                    <h1>{title}</h1>
                 </div>
-                <h1>{title}</h1>
                 <div className='modale-body'>
                     {imageList.map(image => {
                         const imgUrl=require(`../images/${image}`).default
@@ -34,8 +35,6 @@ export class MoreImagesModal extends React.Component {
                     })}
                 </div>
             </Modal>
-
         )
     }
-
 }

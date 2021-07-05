@@ -1,5 +1,5 @@
 import React from 'react'
-import { AchievementData } from './achievement-data';
+import { MoreImagesModal } from "./more-images"
 
 const achievements = [
     {
@@ -27,11 +27,26 @@ const achievements = [
 
 export class Achievements extends React.Component {
 
+    constructor () {
+        super();
+        this.state = {
+        showModal: false,
+        selectedAchievement: {}
+        }
+    }
+
+
     handleClick = (selectedAchievement) => {
-        console.log(selectedAchievement)
-        return (<AchievementData 
-            selectedAchievement={selectedAchievement}
-        />)
+        this.setState({ selectedAchievement: selectedAchievement })
+        this.handleOpenModal()
+    }
+    
+    handleOpenModal = () => {
+        this.setState({ showModal: true })
+    }
+    
+    handleCloseModal = () => {
+        this.setState({ showModal: false })
     }
     
 
@@ -44,6 +59,13 @@ export class Achievements extends React.Component {
                         const imgUrl=require(`../images/${achievement.imgName}`).default
                         return (
                             <div className="card"  key={achievement.title}>
+                                {this.state.showModal && 
+                                <MoreImagesModal
+                                    title={this.state.selectedAchievement.title}
+                                    imageList={this.state.selectedAchievement.imageList}
+                                    showModal={this.state.showModal}
+                                    handleCloseModal={this.handleCloseModal}
+                                />}
                                 <div className="card-header">
                                     <img src={imgUrl} alt={achievement.title} />
                                 </div>
