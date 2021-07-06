@@ -72,6 +72,7 @@ section button {
 header {
   display: flex;
   justify-content: center;
+  background-color: rgba(127, 156, 200, 0.8);
   background-image: url("../../images/panorama.png");
   background-position: center;
   background-repeat: no-repeat;

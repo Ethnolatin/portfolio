@@ -1,1 +1,2 @@
-# My portfolio...
+# Mon portfolio
+## Réalisé en ReactJS et CSS (Sass)

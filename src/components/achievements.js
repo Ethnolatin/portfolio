@@ -26,7 +26,7 @@ const achievements = [
     {
         imgName: 'cv-header.png',
         title: 'CV',
-        description: 'Mon CV en ligne en HTML & CSS responsive',
+        description: 'Mon CV en ligne en HTML et CSS responsive',
         linkUrl: 'https://ethnolatin.github.io/CV-html-css/',
         imageList: []
     },
