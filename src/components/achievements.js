@@ -5,7 +5,7 @@ const achievements = [
     {
         imgName: 'enzym-welcome.png',
         title: 'enzym',
-        description: 'Landing page enzym.io : mise en page, mise en place de boutons, traductions, etc.',
+        description: 'Participation à la landing page enzym.io.',
         linkUrl: 'https://www.enzym.io',
         imageList: ['enzym-welcome.png', 'enzym-map.png', 'enzym-team.png']
     },
