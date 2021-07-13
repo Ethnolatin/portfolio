@@ -2,7 +2,7 @@ const skills = ['HTML / CSS', 'JavaScript', 'ReactJS', 'Git / Github', 'Anglais'
 
 export const Skills = () => {
     return (
-        <section>
+        <section id='skills'>
             <h3>Compétences</h3>
             <div className='list'>
                 {skills.map((skill, index) => {

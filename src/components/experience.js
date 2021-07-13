@@ -19,7 +19,7 @@ const experiences = [
 
 export const Experience = () => {
     return (
-        <section>
+        <section id='experience'>
             <h3>Expérience</h3>
             <div className='list'>
                 {experiences.map((experience, index) => {

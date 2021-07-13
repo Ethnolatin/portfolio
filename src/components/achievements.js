@@ -5,7 +5,7 @@ const achievements = [
     {
         imgName: 'enzym-welcome.png',
         title: 'enzym',
-        description: 'Participation à la landing page enzym.io.',
+        description: 'Participation à la landing page enzym.io et à son back-office',
         linkUrl: 'https://www.enzym.io',
         imageList: ['enzym-welcome.png', 'enzym-map.png', 'enzym-team.png']
     },
@@ -60,7 +60,7 @@ export class Achievements extends React.Component {
 
     render() {
         return (
-            <section>
+            <section id='achievements'>
                 <h3>Réalisations</h3>
                 <div className='list'>
                     {achievements.map((achievement) => {
