@@ -1,10 +1,6 @@
 import React from 'react'
-// import Scroll from 'react-scroll'
 import { Link } from 'react-scroll'
-
 import { FaAlignJustify } from 'react-icons/fa'
-
-// const Link = Scroll.Link
 
 export class Navbar extends React.Component {
     state = {
