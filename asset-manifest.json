@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.14b2575e.chunk.css",
-    "main.js": "/portfolio/static/js/main.b1f931f5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b1f931f5.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.740d3ba3.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.740d3ba3.js.map",
-    "static/js/2.3bcafbaa.chunk.js": "/portfolio/static/js/2.3bcafbaa.chunk.js",
-    "static/js/2.3bcafbaa.chunk.js.map": "/portfolio/static/js/2.3bcafbaa.chunk.js.map",
-    "static/js/3.2a0d325c.chunk.js": "/portfolio/static/js/3.2a0d325c.chunk.js",
-    "static/js/3.2a0d325c.chunk.js.map": "/portfolio/static/js/3.2a0d325c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.639767b9.chunk.css",
+    "main.js": "/portfolio/static/js/main.cda0f188.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cda0f188.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.854bb345.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.854bb345.js.map",
+    "static/js/2.b37a53dc.chunk.js": "/portfolio/static/js/2.b37a53dc.chunk.js",
+    "static/js/2.b37a53dc.chunk.js.map": "/portfolio/static/js/2.b37a53dc.chunk.js.map",
+    "static/js/3.0d6ac71f.chunk.js": "/portfolio/static/js/3.0d6ac71f.chunk.js",
+    "static/js/3.0d6ac71f.chunk.js.map": "/portfolio/static/js/3.0d6ac71f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.14b2575e.chunk.css.map": "/portfolio/static/css/main.14b2575e.chunk.css.map",
-    "static/js/2.3bcafbaa.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3bcafbaa.chunk.js.LICENSE.txt",
+    "static/css/main.639767b9.chunk.css.map": "/portfolio/static/css/main.639767b9.chunk.css.map",
+    "static/js/2.b37a53dc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b37a53dc.chunk.js.LICENSE.txt",
     "static/media/cv-header.png": "/portfolio/static/media/cv-header.954bcfbe.png",
     "static/media/enzym-map.png": "/portfolio/static/media/enzym-map.8aff6243.png",
     "static/media/enzym-team.png": "/portfolio/static/media/enzym-team.645b9ac8.png",
@@ -24,6 +24,8 @@
     "static/media/groupomania-modify.png": "/portfolio/static/media/groupomania-modify.d6eecb75.png",
     "static/media/groupomania-userslist.png": "/portfolio/static/media/groupomania-userslist.7fb087ec.png",
     "static/media/groupomania-welcome.png": "/portfolio/static/media/groupomania-welcome.6c625db8.png",
+    "static/media/header-left.png": "/portfolio/static/media/header-left.8c71d49a.png",
+    "static/media/header-right.png": "/portfolio/static/media/header-right.a2eea0a1.png",
     "static/media/style.css": "/portfolio/static/media/helvetica-lt.145b1d1f.ttf",
     "static/media/oh-my-food-1-mobile.png": "/portfolio/static/media/oh-my-food-1-mobile.0b6716f1.png",
     "static/media/oh-my-food-1.png": "/portfolio/static/media/oh-my-food-1.ea289fee.png",
@@ -32,12 +34,13 @@
     "static/media/oh-my-food-3-mobile.png": "/portfolio/static/media/oh-my-food-3-mobile.59eeed71.png",
     "static/media/oh-my-food-3-tablet.png": "/portfolio/static/media/oh-my-food-3-tablet.c7ab6fa1.png",
     "static/media/panorama.png": "/portfolio/static/media/panorama.10da461b.png",
-    "static/media/photo_id-220.jpg": "/portfolio/static/media/photo_id-220.d55a1e4d.jpg"
+    "static/media/photo_id-220.jpg": "/portfolio/static/media/photo_id-220.d55a1e4d.jpg",
+    "static/media/portrait.png": "/portfolio/static/media/portrait.e7eb18f9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.740d3ba3.js",
-    "static/js/2.3bcafbaa.chunk.js",
-    "static/css/main.14b2575e.chunk.css",
-    "static/js/main.b1f931f5.chunk.js"
+    "static/js/runtime-main.854bb345.js",
+    "static/js/2.b37a53dc.chunk.js",
+    "static/css/main.639767b9.chunk.css",
+    "static/js/main.cda0f188.chunk.js"
   ]
 }
