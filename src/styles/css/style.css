@@ -11,6 +11,7 @@
 body {
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 2rem;
   font-family: "Helvetica", sans-serif;
   color: #4E342E;
 }
@@ -272,6 +273,17 @@ header h1 {
   padding: 1rem;
   margin: 0.5rem auto;
   object-fit: contain;
+}
+
+.items .card {
+  cursor: pointer;
+  height: 22rem;
+}
+.items .card-header {
+  height: 70%;
+}
+.items .card-header-img {
+  object-fit: cover;
 }
 
 @media screen and (min-width: 640px) {

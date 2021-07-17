@@ -54,6 +54,18 @@ export class Navbar extends React.Component {
                                 Expérience
                             </Link>
                         </li>
+                        <li>
+                            <Link
+                                to="aboutMe" 
+                                spy={true} 
+                                smooth={true} 
+                                duration={500} 
+                                className='navbar-link' 
+                                activeClass='active'
+                            >
+                                A propose de moi
+                            </Link>
+                        </li>
                     </ul>
                         
                     </div>

@@ -19,6 +19,7 @@ $secondary: #7CB342;
 body {
     max-width: 1200px;
     margin: auto;
+    margin-bottom: 2rem;
     font-family: 'Helvetica', sans-serif;
     color: $primary;
 }
@@ -283,16 +284,18 @@ header {
     }
 }
 
-// .items {
-//     & .card {
-//         // height: 25rem;
-//         &-header {
-//             height: 80%;
-//         }
-    
-//     }
-    
-// }
+.items {
+    & .card {
+        cursor: pointer;
+        height: 22rem;
+        &-header {
+            height: 70%;
+            &-img {
+                object-fit: cover;
+            }
+        }
+    }
+}
 
 @media screen and (min-width: 640px) {
     .navbar {
