@@ -1,5 +1,6 @@
 import './styles/css/style.css';
 import { Navbar } from './components/navbar'
+import { UpArrow } from './components/up-arrow'
 import { Header } from './components/header'
 import { Skills } from './components/skills'
 import { Experience } from './components/experience'
@@ -12,6 +13,7 @@ function App() {
   return (
     <main>
       <Navbar />
+      <UpArrow />
       <Header />
       <Skills />
       <Achievements />

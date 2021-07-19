@@ -121,6 +121,14 @@ header h1 {
   color: #7CB342;
 }
 
+.uparrow {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: #7CB342;
+}
+
 .portrait {
   display: block;
   margin: 0.5rem auto;

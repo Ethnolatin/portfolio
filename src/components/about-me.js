@@ -2,7 +2,7 @@ const items = [
     {
         imgName: 'portrait.png',
         title: 'Portrait',
-        description: "écrit en 2018 par Pauline Rochette à l'occasion de ma collaboration avec Enzym",
+        description: "écrit en 2018 par Pauline Rochette à l'occasion de ma collaboration avec Enzym.",
         linkUrl: 'https://medium.com/enzym-fr/fred-d%C3%A9veloppeur-junior-297c39129f6a',
     },
     {

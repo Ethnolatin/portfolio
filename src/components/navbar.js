@@ -11,7 +11,7 @@ export class Navbar extends React.Component {
     }
     render() {
         return (
-            <nav className="navbar">
+            <nav id="navbar" className="navbar">
                 <>
                     <button onClick={this.toggle}>
                         <FaAlignJustify />
