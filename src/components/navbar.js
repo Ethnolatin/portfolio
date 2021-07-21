@@ -1,7 +1,25 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+import { LinkToAnchor } from './link-to-anchor'
 import { FaAlignJustify } from 'react-icons/fa'
 
+const linksToAnchors = [
+    {
+        anchor: 'skills',
+        linkText: 'Compétences',
+    },
+    {
+        anchor: 'achievements',
+        linkText: 'Réalisations',
+    },
+    {
+        anchor: 'experience',
+        linkText: 'Expérience',
+    },
+    {
+        anchor: 'aboutMe',
+        linkText: 'A propos de moi',
+    },
+]
 export class Navbar extends React.Component {
     state = {
         status: false
@@ -17,57 +35,21 @@ export class Navbar extends React.Component {
                         <FaAlignJustify />
                     </button>
                     <div className={this.state.status ? "navbar-links navbar-links-show" : "navbar-links"}>
-                    <ul>
-                        <li>
-                            <Link
-                                to="skills" 
-                                spy={true} 
-                                smooth={true} 
-                                duration={500} 
-                                className='navbar-link' 
-                                activeClass='active'
-                            >
-                                Compétences
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="achievements" 
-                                spy={true} 
-                                smooth={true} 
-                                duration={500} 
-                                className='navbar-link' 
-                                activeClass='active'
-                            >
-                                Réalisations
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="experience" 
-                                spy={true} 
-                                smooth={true} 
-                                duration={500} 
-                                className='navbar-link' 
-                                activeClass='active'
-                            >
-                                Expérience
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                to="aboutMe" 
-                                spy={true} 
-                                smooth={true} 
-                                duration={500} 
-                                className='navbar-link' 
-                                activeClass='active'
-                            >
-                                A propos de moi
-                            </Link>
-                        </li>
-                    </ul>
-                        
+                        <ul>
+                            {
+                                linksToAnchors.map(linkToAnchor => {
+                                    return (
+                                        <li key={linkToAnchor.linkText}>
+                                            <LinkToAnchor
+                                                anchor={linkToAnchor.anchor}
+                                                linkClass='navbar-link'
+                                                linkText={linkToAnchor.linkText}
+                                            />
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
                     </div>
                 </>
             </nav>

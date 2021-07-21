@@ -1,18 +1,13 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+import { LinkToAnchor } from './link-to-anchor'
 import { FaArrowCircleUp } from 'react-icons/fa'
 
 export const UpArrow = () => {
     return (
-        <Link
-            to="navbar" 
-            spy={true} 
-            smooth={true} 
-            duration={500} 
-            className='uparrow'
-            activeClass='active'
-        >
-            <FaArrowCircleUp />
-        </Link>
+        <LinkToAnchor
+            anchor='navbar'
+            linkClass='uparrow'
+            linkText={<FaArrowCircleUp />}
+        />
     )
 }
