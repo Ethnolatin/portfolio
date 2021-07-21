@@ -306,6 +306,27 @@ header {
     }
 }
 
+.slider {
+    overflow: hidden;
+    width: 100%;
+    padding: 0.2rem 0;
+    background-color: $secondary;
+    & p {
+        width: 300%;
+        animation: slide 10s linear infinite;
+    }
+}
+
+@keyframes slide {
+    from {
+      margin-left: 100%;
+    }
+  
+    to {
+      margin-left: -300%;
+    }
+}
+
 @media screen and (min-width: 640px) {
     .navbar {
         & button {
@@ -324,9 +345,24 @@ header {
             }
         }
     }
+
     header > img {
         display: block;
         max-width: 30%;
         object-fit: cover;
+    }
+
+    .slider p {
+        width: 150%;
+    }
+    
+    @keyframes slide {
+        from {
+          margin-left: 100%;
+        }
+      
+        to {
+          margin-left: -150%;
+        }
     }
 }
