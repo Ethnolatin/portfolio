@@ -63,7 +63,7 @@ export class Navbar extends React.Component {
                                 className='navbar-link' 
                                 activeClass='active'
                             >
-                                A propose de moi
+                                A propos de moi
                             </Link>
                         </li>
                     </ul>
