@@ -46,6 +46,13 @@ h3 {
     letter-spacing: 0.05rem;
 }
 
+h4 {
+    text-align: center;
+    margin: 0.5rem;
+    padding-top: 0.5rem;
+    letter-spacing: 0.05rem;
+}
+
 p {
     text-align: center;
     margin: 0;
@@ -131,6 +138,7 @@ header {
 }
 
 .uparrow {
+    z-index: 200;
     position: fixed;
     bottom: 1rem;
     right: 1rem;
@@ -155,12 +163,36 @@ header {
 
 .skill {
     width: 35%;
+    max-width: 20rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
     background-color: $primary;
     color: white;
 }
+
+.notion {
+    width: 25%;
+    min-width: 10rem;
+    max-width: 15rem;
+    margin: 0.4rem;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    background-color: $primary;
+    color: white;
+}
+
+.wip {
+    width: 15%;
+    min-width: 6rem;
+    max-width: 9rem;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    background-color: $primary;
+    color: white;
+}
+
 
 .experience {
     width: 70%;
@@ -354,6 +386,7 @@ header {
 
     .slider p {
         width: 150%;
+        animation: slide 15s linear infinite;
     }
     
     @keyframes slide {
