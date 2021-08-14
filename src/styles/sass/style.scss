@@ -82,6 +82,10 @@ section {
         padding: 0.5rem;
         font-size: 1rem;
         cursor: pointer;
+        &:hover {
+            background-color: $primary;
+            color: white;
+        }
     }
 }
 
@@ -144,6 +148,9 @@ header {
     font-size: 2rem;
     color: $secondary;
     cursor: pointer;
+    &:hover {
+        color: $primary;
+    }
 }
 
 .portrait {

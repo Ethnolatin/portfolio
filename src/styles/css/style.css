@@ -76,6 +76,10 @@ section button {
   font-size: 1rem;
   cursor: pointer;
 }
+section button:hover {
+  background-color: #4E342E;
+  color: white;
+}
 
 header {
   display: flex;
@@ -135,6 +139,9 @@ header h1 {
   font-size: 2rem;
   color: #7CB342;
   cursor: pointer;
+}
+.uparrow:hover {
+  color: #4E342E;
 }
 
 .portrait {
