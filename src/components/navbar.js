@@ -1,6 +1,7 @@
 import React from 'react'
 import { LinkToAnchor } from './link-to-anchor'
 import { FaAlignJustify } from 'react-icons/fa'
+import { ToggleLangs } from './toggle-langs'
 
 const linksToAnchors = [
     {
@@ -50,6 +51,7 @@ export class Navbar extends React.Component {
                                 })
                             }
                         </ul>
+                        <ToggleLangs />
                     </div>
                 </>
             </nav>
