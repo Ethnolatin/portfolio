@@ -1,60 +1,48 @@
-import React from 'react'
+import React, { useContext, useState } from 'react' 
 import { LinkToAnchor } from './link-to-anchor'
 import { FaAlignJustify } from 'react-icons/fa'
 import { ToggleLangs } from './toggle-langs'
+import { Context } from '../context/langContext'
+import texts from '../assets/texts'
 
-const linksToAnchors = [
-    {
-        anchor: 'skills',
-        linkText: 'Compétences',
-    },
-    {
-        anchor: 'achievements',
-        linkText: 'Réalisations',
-    },
-    {
-        anchor: 'experience',
-        linkText: 'Expérience',
-    },
-    {
-        anchor: 'aboutMe',
-        linkText: 'A propos de moi',
-    },
+const anchors = [
+    'skills',
+    'achievements',
+    'experience',
+    'aboutMe',
 ]
-export class Navbar extends React.Component {
-    state = {
-        status: false
+
+export const Navbar = () => {
+    const {lang} = useContext(Context)
+    const {status, setStatus} = useState(false)
+    const toggleStatus = (status) => {
+        setStatus(!status)
     }
-    toggle = () => {
-        this.setState({status:!this.state.status})
-    }
-    render() {
-        return (
-            <nav id="navbar" className="navbar">
-                <>
-                    <button onClick={this.toggle}>
-                        <FaAlignJustify />
-                    </button>
-                    <div className={this.state.status ? "navbar-links navbar-links-show" : "navbar-links"}>
-                        <ul>
-                            {
-                                linksToAnchors.map(linkToAnchor => {
-                                    return (
-                                        <li key={linkToAnchor.linkText}>
-                                            <LinkToAnchor
-                                                anchor={linkToAnchor.anchor}
-                                                linkClass='navbar-link'
-                                                linkText={linkToAnchor.linkText}
-                                            />
-                                        </li>
-                                    )
-                                })
-                            }
-                        </ul>
-                        <ToggleLangs />
-                    </div>
-                </>
-            </nav>
-        )
-    }
+    return (
+        <nav id="navbar" className="navbar">
+            <>
+                <button onClick={toggleStatus}>
+                    <FaAlignJustify />
+                </button>
+                <div className={status ? "navbar-links navbar-links-show" : "navbar-links"}>
+                    <ul>
+                        {
+                            anchors.map(anchor => {
+                                return (
+                                    <li key={anchor}>
+                                        <LinkToAnchor
+                                            anchor={anchor}
+                                            linkClass='navbar-link'
+                                            linkText={texts[lang].navbar[anchor]}
+                                        />
+                                    </li>
+                                )
+                            })
+                        }
+                    </ul>
+                    <ToggleLangs />
+                </div>
+            </>
+        </nav>
+    )
 }

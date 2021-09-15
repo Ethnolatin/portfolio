@@ -15,8 +15,8 @@ export const Header = () => {
             <section>
                 <img src={myFace} className="portrait" alt="mon portrait" />
                 <h1>Frédéric Duchesne</h1>
-                <h2>{texts[lang].title}</h2>
-                <p>{texts[lang].intro}</p>
+                <h2>{texts[lang].header.title}</h2>
+                <p>{texts[lang].header.intro}</p>
                 <HeaderButtons />
             </section>
             <img src={headerRight} alt="" />
