@@ -7,19 +7,22 @@ import { Skills } from './components/skills'
 import { Experience } from './components/experience'
 import { Achievements } from './components/achievements'
 import { AboutMe } from './components/about-me'
+import ContextProvider from './context/langContext';
 
 function App() {
 
   return (
     <main>
-      <Navbar />
-      <UpArrow />
-      <Header />
-      <SlidingText />
-      <Skills />
-      <Achievements />
-      <Experience />
-      <AboutMe />
+      <ContextProvider>
+        <Navbar />
+        <UpArrow />
+        <Header />
+        <SlidingText />
+        <Skills />
+        <Achievements />
+        <Experience />
+        <AboutMe />
+      </ContextProvider>
     </main>
   )
 }
