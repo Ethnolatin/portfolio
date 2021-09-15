@@ -8,15 +8,15 @@ import texts from '../assets/texts'
 
 export const Header = () => {
     const {lang} = useContext(Context)
-
+    const text = texts[lang].header
     return (
         <header>
             <img src={headerLeft} alt="" />
             <section>
                 <img src={myFace} className="portrait" alt="mon portrait" />
                 <h1>Frédéric Duchesne</h1>
-                <h2>{texts[lang].header.title}</h2>
-                <p>{texts[lang].header.intro}</p>
+                <h2>{text.title}</h2>
+                <p>{text.std1}<b>{text.bold1}</b>{text.std2}<b>{text.bold2}</b>{text.std3}<b>{text.bold3}</b>{text.std4}<b>{text.bold4}</b>{text.std5}<b>{text.bold5}</b>{text.std6}<b>{text.bold6}</b>.</p>
                 <HeaderButtons />
             </section>
             <img src={headerRight} alt="" />

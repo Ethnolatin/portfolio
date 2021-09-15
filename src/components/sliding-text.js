@@ -1,8 +1,14 @@
+import React, { useContext } from 'react'
+import { Context } from '../context/langContext'
+import texts from '../assets/texts'
+
 export const SlidingText = () => {
+    const {lang} = useContext(Context)
+    const text = texts[lang].slider
     return (
         <div className='slider'>
             <p>
-                - J'ai codé ce portfolio en <b>JavaScript (ReactJS) et CSS (Sass)</b> - Code disponible sur mon compte GitHub (rubrique <em>"A propos de moi"</em>) -
+                - {text.part1}<b>{text.part2}</b> - {text.part3}<em>{text.part4}</em>) -
             </p>
         </div>
     )
