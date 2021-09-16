@@ -31,6 +31,21 @@ const traductions = {
             part2: "JavaScript (ReactJS) et CSS (Sass)",
             part3: "Code disponible sur mon compte GitHub (voir ",
             part4: '"À propos de moi"',
+        },
+        skills: {
+            title1: "Compétences",
+            title2: "Notions",
+            title3: "En cours...",
+            english: "Anglais",
+            spanish: "Espagnol",
+            access: "Accessibilité",
+        },
+        achievements: {
+            title: "Réalisations",
+            desc1: "Participation à la landing page enzym.io et à son back-office",
+            desc2: "MVP de réseau social d'entreprise façon Reddit (ReactJS - NodeJS - MySQL)",
+            desc3: "Page web mobile first en HTML et CSS à partir d'une maquette et d'un brief",
+            desc4: "Mon CV en ligne, responsive, en HTML et CSS",
         }
     },
 
@@ -66,7 +81,22 @@ const traductions = {
             part2: "JavaScript (ReactJS) and CSS (Sass)",
             part3: "Code available on my GitHub account (see ",
             part4: '"About me"',
-        }
+        },
+        skills: {
+            title1: "Skills",
+            title2: "Notions",
+            title3: "In progress...",
+            english: "English",
+            spanish: "Spanish",
+            access: "Accessibility",
+        },
+        achievements: {
+            title: "Achievements",
+            desc1: "Participation in the enzym.io landing page and its back-office",
+            desc2: "MVP of a Reddit-style corporate social network (ReactJS - NodeJS - MySQL)",
+            desc3: "Mobile first web page in HTML and CSS from a mockup and a brief",
+            desc4: "My CV online, responsive, in HTML and CSS",
+        },
     },
 
     ES: {
@@ -102,7 +132,22 @@ const traductions = {
             part2: "JavaScript (ReactJS) y CSS (Sass)",
             part3: "Código disponible en mi cuenta GitHub (ver ",
             part4: '"Acerca de mí"',
-        }
+        },
+        skills: {
+            title1: "Competencias",
+            title2: "Nociones",
+            title3: "En curso...",
+            english: "inglés",
+            spanish: "Español",
+            access: "Accesibilidad",
+        },
+        achievements: {
+            title: "Logros",
+            desc1: "Participación en la landing page de Enzym.io y su back-office",
+            desc2: "MVP de una red social corporativa estilo Reddit (ReactJS - NodeJS - MySQL)",
+            desc3: "Página web mobile first en HTML y CSS a partir de una maqueta y un resumen",
+            desc4: "Mi CV online, responsive, en HTML y CSS",
+        },
     },
 }
   
