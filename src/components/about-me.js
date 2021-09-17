@@ -1,22 +1,16 @@
-const items = [
-    {
-        imgName: 'portrait.png',
-        title: 'Portrait',
-        description: "écrit en 2018 par Pauline Rochette à l'occasion de ma collaboration avec Enzym.",
-        linkUrl: 'https://medium.com/enzym-fr/fred-d%C3%A9veloppeur-junior-297c39129f6a',
-    },
-    {
-        imgName: 'github.png',
-        title: 'Compte GitHub',
-        description: 'avec le code de différents projets et parfois la visualisation de leur rendu web via github-pages.',
-        linkUrl: 'https://github.com/Ethnolatin'
-    }
-]
+import React, { useContext } from 'react'
+import { Context } from '../context/langContext'
+import texts from '../assets/texts'
+
 
 export const AboutMe = () => {
+    const {lang} = useContext(Context)
+    const text = texts[lang].aboutMe
+    const items = text.items
+
     return (
         <section id="aboutMe">
-            <h3>A propos de moi...</h3>
+            <h3>{text.title}</h3>
             <div className='list items'>
                 {items.map((item, index) => {
                     const imgUrl=require(`../images/${item.imgName}`).default

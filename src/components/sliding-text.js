@@ -2,9 +2,11 @@ import React, { useContext } from 'react'
 import { Context } from '../context/langContext'
 import texts from '../assets/texts'
 
+
 export const SlidingText = () => {
     const {lang} = useContext(Context)
     const text = texts[lang].slider
+    
     return (
         <div className='slider'>
             <p>

@@ -1,30 +1,16 @@
-const experiences = [
-    {
-        title: "Enzym - juil. 2021",
-        content: "Mises à jour de la landing page enzym.io"
-    },
-    {
-        title: 'OpenClassrooms - juin 2021',
-        content: "Diplômé du titre professionnel de développeur web"
-    },
-    {
-        title: "Projet de fin de formation - mai 2021",
-        content: "Réalisation d'un MVP de réseau social d'entreprise"
-    },
-    {
-        title: "Projet de formation - sept. 2020",
-        content: "Réalisation d'une page web en HTML et CSS"
-    },
-    {
-        title: "Enzym - juil. 2021 & juin-nov. 2018",
-        content: "Travaux sur la landing page enzym.io"
-    }
-]
+import React, { useContext } from 'react'
+import { Context } from '../context/langContext'
+import texts from '../assets/texts'
+
 
 export const Experience = () => {
+    const {lang} = useContext(Context)
+    const text = texts[lang].experience
+    const experiences = text.items
+
     return (
         <section id='experience'>
-            <h3>Expérience</h3>
+            <h3>{text.title}</h3>
             <div className='list'>
                 {experiences.map((experience, index) => {
                     return (

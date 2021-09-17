@@ -1,7 +1,7 @@
 import React, {createContext, useState} from 'react' 
 
-export const Context = createContext();
 
+export const Context = createContext()
 const supportedLangs = ['FR', 'EN', 'ES']
 let browserLang = navigator.language.slice(3)
 if(supportedLangs.indexOf(browserLang) === -1){

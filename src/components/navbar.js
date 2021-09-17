@@ -18,6 +18,7 @@ export const Navbar = () => {
     const toggleStatus = (status) => {
         setStatus(!status)
     }
+
     return (
         <nav id="navbar" className="navbar">
             <>

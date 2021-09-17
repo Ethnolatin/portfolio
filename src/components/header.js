@@ -6,9 +6,11 @@ import { HeaderButtons } from './header-buttons'
 import { Context } from '../context/langContext'
 import texts from '../assets/texts'
 
+
 export const Header = () => {
     const {lang} = useContext(Context)
     const text = texts[lang].header
+
     return (
         <header>
             <img src={headerLeft} alt="" />

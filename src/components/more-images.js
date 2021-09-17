@@ -2,6 +2,7 @@ import React from 'react'
 import Modal from 'react-modal'
 import { FaTimes } from 'react-icons/fa'
 
+
 export class MoreImagesModal extends React.Component {
 
     handleCloseModal = () => {

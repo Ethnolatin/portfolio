@@ -3,8 +3,8 @@ import { Context } from '../context/langContext'
 import { MoreImagesModal } from "./more-images"
 import texts from '../assets/texts'
 
-export const Achievements = () => {
 
+export const Achievements = () => {
     const {lang} = useContext(Context)
     const {showModal, setShowModal} = useState(false)
     const {selectedAchievement, setSelectedAchievement} = useState({})
@@ -15,7 +15,7 @@ export const Achievements = () => {
             imgName: 'enzym-welcome.png',
             title: 'enzym',
             description: text.desc1,
-            linkUrl: 'https://www.enzym.io',
+            linkUrl: `https://www.enzym.io/${text.enzymPage}`,
             imageList: ['enzym-welcome.png', 'enzym-map.png', 'enzym-team.png']
         },
         {
@@ -36,11 +36,10 @@ export const Achievements = () => {
             imgName: 'cv-header.png',
             title: 'CV',
             description: text.desc4,
-            linkUrl: 'https://ethnolatin.github.io/CV-html-css/',
+            linkUrl: `https://ethnolatin.github.io/CV-html-css/${text.cvPage}`,
             imageList: []
         },
     ]
-
 
     const handleClick = (selectedAchievement) => {
         setSelectedAchievement(selectedAchievement)
@@ -78,9 +77,9 @@ export const Achievements = () => {
                                 <p>{achievement.description}</p>
                             </div>
                             <div className="card-footer">
-                                <button onClick={() => {window.open(`${achievement.linkUrl}`, '_blank')}}>Page web</button>  
+                                <button onClick={() => {window.open(`${achievement.linkUrl}`, '_blank')}}>{text.webPage}</button>  
                                 {achievement.imageList.length ?
-                                    <button onClick={() => handleClick(achievement)}>Images</button>
+                                    <button onClick={() => handleClick(achievement)}>{text.images}</button>
                                     : ""}
                             </div>
                         </div>

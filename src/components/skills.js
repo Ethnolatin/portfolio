@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { Context } from '../context/langContext'
 import texts from '../assets/texts'
 
+
 export const Skills = () => {
     const {lang} = useContext(Context)
     const text = texts[lang].skills

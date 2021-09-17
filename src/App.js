@@ -9,6 +9,7 @@ import { Achievements } from './components/achievements'
 import { AboutMe } from './components/about-me'
 import ContextProvider from './context/langContext';
 
+
 function App() {
 
   return (

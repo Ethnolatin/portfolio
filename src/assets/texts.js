@@ -46,7 +46,53 @@ const traductions = {
             desc2: "MVP de réseau social d'entreprise façon Reddit (ReactJS - NodeJS - MySQL)",
             desc3: "Page web mobile first en HTML et CSS à partir d'une maquette et d'un brief",
             desc4: "Mon CV en ligne, responsive, en HTML et CSS",
-        }
+            enzymPage: "",
+            cvPage: "",
+            webPage: "Page web",
+            images: "Images",
+        },
+        experience: {
+            title: "Expérience",
+            items: [
+                {
+                    title: "Enzym - juil. 2021",
+                    content: "Mises à jour de la landing page enzym.io"
+                },
+                {
+                    title: "OpenClassrooms - juin 2021",
+                    content: "Diplômé du titre professionnel de développeur web"
+                },
+                {
+                    title: "Projet de fin de formation - mai 2021",
+                    content: "Réalisation d'un MVP de réseau social d'entreprise"
+                },
+                {
+                    title: "Projet de formation - sept. 2020",
+                    content: "Réalisation d'une page web en HTML et CSS"
+                },
+                {
+                    title: "Enzym - juin-nov. 2018",
+                    content: "Travaux sur la landing page enzym.io"
+                }
+            ]
+        },
+        aboutMe: {
+            title: "À propos de moi...",
+            items: [
+                {
+                    imgName: "portrait.png",
+                    title: "Portrait",
+                    description: "écrit en 2018 par Pauline Rochette à l'occasion de ma première collaboration avec Enzym.",
+                    linkUrl: "https://blog.enzym.io/2019/08/20/fred-developpeur-junior-mais-pas-que/",
+                },
+                {
+                    imgName: "github.png",
+                    title: "Compte GitHub",
+                    description: "avec le code de différents projets et parfois la visualisation de leur rendu web via github-pages.",
+                    linkUrl: "https://github.com/Ethnolatin"
+                }
+            ]
+        },
     },
 
     EN: {
@@ -96,6 +142,52 @@ const traductions = {
             desc2: "MVP of a Reddit-style corporate social network (ReactJS - NodeJS - MySQL)",
             desc3: "Mobile first web page in HTML and CSS from a mockup and a brief",
             desc4: "My CV online, responsive, in HTML and CSS",
+            enzymPage: "en",
+            cvPage: "en.html",
+            webPage: "Web page",
+            images: "Images",
+        },
+        experience: {
+            title: "Experience",
+            items: [
+                {
+                    title: "Enzym - July 2021",
+                    content: "Updates of enzym.io landing page"
+                },
+                {
+                    title: "OpenClassrooms - June 2021",
+                    content: 'Graduated with the "Titre Professionnel" of web developer'
+                },
+                {
+                    title: "End of training project - May 2021",
+                    content: "Production of the MVP of a corporate social network"
+                },
+                {
+                    title: "Training project - Sept. 2020",
+                    content: "Production of a web page with HTML and CSS"
+                },
+                {
+                    title: "Enzym - June-Nov. 2018",
+                    content: "Works on enzym.io landing page"
+                }
+            ]
+        },
+        aboutMe: {
+            title: "About me...",
+            items: [
+                {
+                    imgName: "portrait.png",
+                    title: "Portrait",
+                    description: "written in 2018 by Pauline Rochette on the occasion of my first collaboration with Enzym (FR).",
+                    linkUrl: "https://blog.enzym.io/2019/08/20/fred-developpeur-junior-mais-pas-que/",
+                },
+                {
+                    imgName: "github.png",
+                    title: "GitHub account",
+                    description: "with the code of different projects and sometimes the visualization of their web rendering via github-pages.",
+                    linkUrl: "https://github.com/Ethnolatin"
+                }
+            ]
         },
     },
 
@@ -147,6 +239,52 @@ const traductions = {
             desc2: "MVP de una red social corporativa estilo Reddit (ReactJS - NodeJS - MySQL)",
             desc3: "Página web mobile first en HTML y CSS a partir de una maqueta y un resumen",
             desc4: "Mi CV online, responsive, en HTML y CSS",
+            enzymPage: "en",
+            cvPage: "es.html",
+            webPage: "Página web",
+            images: "Imágenes",
+        },
+        experience: {
+            title: "Expérience",
+            items: [
+                {
+                    title: "Enzym - jul. 2021",
+                    content: "Actualizaciones de la página web enzym.io"
+                },
+                {
+                    title: "OpenClassrooms - jun. 2021",
+                    content: 'Graduado con el "Titre Professionnel" de desarrollador web'
+                },
+                {
+                    title: "Proyecto de fin de formación - mayo 2021",
+                    content: "Producción de un MVP de red social corporativa"
+                },
+                {
+                    title: "Proyecto de formación - sept. 2020",
+                    content: "Producción de una página web en HTML y CSS"
+                },
+                {
+                    title: "Enzym - jun.-nov. 2018",
+                    content: "Trabajos en la página web enzym.io"
+                }
+            ]
+        },
+        aboutMe: {
+            title: "Acerca de mí...",
+            items: [
+                {
+                    imgName: "portrait.png",
+                    title: "Retrato",
+                    description: "escrito en 2018 por Pauline Rochette con motivo de mi primera colaboración con Enzym (FR).",
+                    linkUrl: "https://blog.enzym.io/2019/08/20/fred-developpeur-junior-mais-pas-que/",
+                },
+                {
+                    imgName: "github.png",
+                    title: "Cuenta GitHub",
+                    description: "con el código de diferentes proyectos y, a veces, la visualización de su renderizado web a través de github-pages.",
+                    linkUrl: "https://github.com/Ethnolatin"
+                }
+            ]
         },
     },
 }
