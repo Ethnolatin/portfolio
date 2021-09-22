@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Context } from '../context/langContext'
-import texts from '../assets/texts'
+import texts from './texts'
 
 
 export const HeaderButtons = () => {

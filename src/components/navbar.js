@@ -3,7 +3,7 @@ import { LinkToAnchor } from './link-to-anchor'
 import { FaAlignJustify } from 'react-icons/fa'
 import { ToggleLangs } from './toggle-langs'
 import { Context } from '../context/langContext'
-import texts from '../assets/texts'
+import texts from './texts'
 
 const anchors = [
     'skills',
@@ -14,7 +14,7 @@ const anchors = [
 
 export const Navbar = () => {
     const {lang} = useContext(Context)
-    const {status, setStatus} = useState(false)
+    const [status, setStatus] = useState(false)
     const toggleStatus = (status) => {
         setStatus(!status)
     }

@@ -1,13 +1,13 @@
 import React, { useContext, useState } from 'react' 
 import { Context } from '../context/langContext'
 import { MoreImagesModal } from "./more-images"
-import texts from '../assets/texts'
+import texts from './texts'
 
 
 export const Achievements = () => {
     const {lang} = useContext(Context)
-    const {showModal, setShowModal} = useState(false)
-    const {selectedAchievement, setSelectedAchievement} = useState({})
+    const [showModal, setShowModal] = useState(false)
+    const [selectedAchievement, setSelectedAchievement] = useState({})
     const text = texts[lang].achievements
 
     const achievements = [
@@ -41,8 +41,8 @@ export const Achievements = () => {
         },
     ]
 
-    const handleClick = (selectedAchievement) => {
-        setSelectedAchievement(selectedAchievement)
+    const handleClick = (achievement) => {
+        setSelectedAchievement(achievement)
         handleOpenModal()
     }
     
@@ -51,7 +51,7 @@ export const Achievements = () => {
     }
     
     const handleCloseModal = () => {
-        this.setState({ showModal: false })
+        setShowModal(false)
     }
     
     return (

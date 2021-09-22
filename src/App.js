@@ -1,4 +1,4 @@
-import './styles/css/style.css';
+import './styles/css/style.css'
 import { Navbar } from './components/navbar'
 import { UpArrow } from './components/up-arrow'
 import { Header } from './components/header'
@@ -7,7 +7,7 @@ import { Skills } from './components/skills'
 import { Experience } from './components/experience'
 import { Achievements } from './components/achievements'
 import { AboutMe } from './components/about-me'
-import ContextProvider from './context/langContext';
+import ContextProvider from './context/langContext'
 
 
 function App() {

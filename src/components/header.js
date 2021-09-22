@@ -4,7 +4,7 @@ import headerLeft from '../images/header-left.png'
 import headerRight from '../images/header-right.png'
 import { HeaderButtons } from './header-buttons'
 import { Context } from '../context/langContext'
-import texts from '../assets/texts'
+import texts from './texts'
 
 
 export const Header = () => {
