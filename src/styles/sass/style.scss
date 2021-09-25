@@ -91,7 +91,7 @@ section {
 
 .container-langs {
     position: absolute;
-    top: 0px;
+    top: 3px;
     right: 0px;
     max-width: 300px;
     display: flex;
@@ -100,7 +100,7 @@ section {
     & img {
         width: 2rem;
         height: 2rem;
-        margin: 5px;
+        margin: 0 4px;
         cursor: pointer;
     }
 }
@@ -368,9 +368,10 @@ header {
     width: 100%;
     padding: 0.2rem 0;
     background-color: $secondary;
+    font-size: 1.1rem;
     & p {
         width: 300%;
-        animation: slide 10s linear infinite;
+        animation: slide 12s linear infinite;
     }
 }
 

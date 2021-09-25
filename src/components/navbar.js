@@ -15,7 +15,7 @@ const anchors = [
 export const Navbar = () => {
     const {lang} = useContext(Context)
     const [status, setStatus] = useState(false)
-    const toggleStatus = (status) => {
+    const toggleStatus = () => {
         setStatus(!status)
     }
 

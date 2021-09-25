@@ -83,7 +83,7 @@ section button:hover {
 
 .container-langs {
   position: absolute;
-  top: 0px;
+  top: 3px;
   right: 0px;
   max-width: 300px;
   display: flex;
@@ -93,7 +93,7 @@ section button:hover {
 .container-langs img {
   width: 2rem;
   height: 2rem;
-  margin: 5px;
+  margin: 0 4px;
   cursor: pointer;
 }
 
@@ -356,10 +356,11 @@ header h1 {
   width: 100%;
   padding: 0.2rem 0;
   background-color: #7CB342;
+  font-size: 1.1rem;
 }
 .slider p {
   width: 300%;
-  animation: slide 10s linear infinite;
+  animation: slide 12s linear infinite;
 }
 
 @keyframes slide {
