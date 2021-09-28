@@ -9,7 +9,7 @@ export const Skills = () => {
 
     const skills = ['HTML / CSS', 'JavaScript', 'ReactJS', 'Git / Github', text.english, text.spanish]
     const notions = ['TypeScript', `SEO / ${text.access}`, 'NodeJS / Express', 'API REST', 'MongoDB / MySQL']
-    const inprogress = ['Redux', 'NextJS', 'GraphQL', 'Jest']
+    const inprogress = ['Svelte', 'Tailwind', 'Redux', 'NextJS', 'GraphQL', 'Jest']
     
     return (
         <section id='skills'>
