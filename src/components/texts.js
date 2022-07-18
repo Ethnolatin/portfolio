@@ -44,11 +44,15 @@ const traductions = {
         },
         achievements: {
             title: "Réalisations",
-            desc1: "Participation à la landing page enzym.io et à son back-office",
-            desc2: "MVP de réseau social d'entreprise façon Reddit (ReactJS - NodeJS - MySQL)",
-            desc3: "Page web mobile first en HTML et CSS à partir d'une maquette et d'un brief",
-            desc4: "Mon CV en ligne, en 3 langues, juste en HTML et CSS",
-            enzymPage: "",
+            enzymIco: "Intégration de la page ICO d'Enzym d'après maquette (ReactJS, Sass, Emotion)",
+			enzymIcoImage: "enzym-ico-fr.png",
+			enzymIcoPage: "ico.enzym.io",
+            enzym: "Participation à la landing page enzym.io et à son back-office",
+			enzymImage: "enzym-fr.png",
+			enzymPage: "",
+			groupomania: "MVP de réseau social d'entreprise façon Reddit (ReactJS - NodeJS - MySQL)",
+            ohmyfood: "Page web mobile first en HTML et CSS à partir d'une maquette et d'un brief",
+            cv: "Mon CV en ligne, en 3 langues, juste en HTML et CSS",
 			cvHeader: "cv-header-fr.png",
             cvPage: "",
             webPage: "Page web",
@@ -57,6 +61,14 @@ const traductions = {
         experience: {
             title: "Expérience",
             items: [
+                {
+					title: "Kestio - depuis décembre 2021",
+                    content: "Chargé des tests de non-régression (NR) projet agile :  écriture de tests automatisés (Jest), rédaction de procédures de tests NR sur la base de scénarios, organisation des tests NR, participation aux sessions de tests NR."
+				},
+                {
+                    title: "Enzym - mai 2022",
+                    content: "Intégration de la page ICO d'Enzym d'après maquette (ReactJS, Sass, Emotion)"
+                },
                 {
                     title: "Enzym - juil. 2021",
                     content: "Mises à jour de la landing page enzym.io"
@@ -67,12 +79,12 @@ const traductions = {
                 },
                 {
                     title: "Projet de fin de formation - mai 2021",
-                    content: "Réalisation d'un MVP de réseau social d'entreprise"
+                    content: "Réalisation d'un MVP de réseau social d'entreprise (ReactJS, NodeJS, MySQL)"
                 },
-                {
-                    title: "Projet de formation - sept. 2020",
-                    content: "Réalisation d'une page web en HTML et CSS"
-                },
+                // {
+                //     title: "Projet de formation - sept. 2020",
+                //     content: "Réalisation d'une page web en HTML et CSS"
+                // },
                 {
                     title: "Enzym - juin-nov. 2018",
                     content: "Travaux sur la landing page enzym.io"
@@ -143,11 +155,15 @@ const traductions = {
         },
         achievements: {
             title: "Achievements",
-            desc1: "Participation in the enzym.io landing page and its back-office",
-            desc2: "MVP of a Reddit-style corporate social network (ReactJS - NodeJS - MySQL)",
-            desc3: "Mobile first web page in HTML and CSS from a mockup and a brief",
-            desc4: "My CV online, in 3 languages, just in HTML and CSS",
-            enzymPage: "en",
+            enzymIco: "Integration of Enzym's ICO page according to a model (ReactJS, Sass, Emotion).",
+			enzymIcoImage: "enzym-ico-en.png",
+			enzymIcoPage: "ico.enzym.io/en",
+            enzym: "Participation in the enzym.io landing page and its back-office",
+			enzymImage: "enzym-en.png",
+			enzymPage: "en",
+			groupomania: "MVP of a Reddit-style corporate social network (ReactJS - NodeJS - MySQL)",
+            ohmyfood: "Mobile first web page in HTML and CSS from a mockup and a brief",
+            cv: "My CV online, in 3 languages, just in HTML and CSS",
 			cvHeader: "cv-header-en.png",
 			cvPage: "en.html",
             webPage: "Web page",
@@ -156,6 +172,14 @@ const traductions = {
         experience: {
             title: "Experience",
             items: [
+				{
+					title: "Kestio - Since December 2021",
+                    content: "Non-regression (NR) tests manager in agile project: writing of automated tests (Jest), writing of NR test procedures based on scenarios, organization of NR tests, participation in NR test sessions."
+				},
+                {
+                    title: "Enzym - May 2022",
+                    content: "Integration of Enzym's ICO page according to a model (ReactJS, Sass, Emotion)"
+                },
                 {
                     title: "Enzym - July 2021",
                     content: "Updates of enzym.io landing page"
@@ -166,12 +190,12 @@ const traductions = {
                 },
                 {
                     title: "End of training project - May 2021",
-                    content: "Production of the MVP of a corporate social network"
+                    content: "Production of the MVP of a corporate social network (ReactJS, NodeJS, MySQL)"
                 },
-                {
-                    title: "Training project - Sept. 2020",
-                    content: "Production of a web page with HTML and CSS"
-                },
+                // {
+                //     title: "Training project - Sept. 2020",
+                //     content: "Production of a web page with HTML and CSS"
+                // },
                 {
                     title: "Enzym - June-Nov. 2018",
                     content: "Works on enzym.io landing page"
@@ -241,11 +265,15 @@ const traductions = {
         },
         achievements: {
             title: "Logros",
-            desc1: "Participación en la landing page de Enzym.io y su back-office",
-            desc2: "MVP de una red social corporativa estilo Reddit (ReactJS - NodeJS - MySQL)",
-            desc3: "Página web mobile first en HTML y CSS a partir de una maqueta y un resumen",
-            desc4: "Mi CV online, en 3 idiomas, solo con HTML y CSS",
-            enzymPage: "en",
+            enzymIco: "Integración de la página ICO de Enzym según modelo (ReactJS, Sass, Emotion).",
+			enzymIcoImage: "enzym-ico-en.png",
+			enzymIcoPage: "ico.enzym.io/en",
+            enzym: "Participación en la landing page de Enzym.io y su back-office",
+			enzymImage: "enzym-en.png",
+			enzymPage: "en",
+			groupomania: "MVP de una red social corporativa estilo Reddit (ReactJS - NodeJS - MySQL)",
+            ohmyfood: "Página web mobile first en HTML y CSS a partir de una maqueta y un resumen",
+            cv: "Mi CV online, en 3 idiomas, solo con HTML y CSS",
 			cvHeader: "cv-header-en.png",
 			cvPage: "es.html",
             webPage: "Página web",
@@ -264,12 +292,12 @@ const traductions = {
                 },
                 {
                     title: "Proyecto de fin de formación - mayo 2021",
-                    content: "Producción de un MVP de red social corporativa"
+                    content: "Producción de un MVP de red social corporativa (ReactJS, NodeJS, MySQL)"
                 },
-                {
-                    title: "Proyecto de formación - sept. 2020",
-                    content: "Producción de una página web en HTML y CSS"
-                },
+                // {
+                //     title: "Proyecto de formación - sept. 2020",
+                //     content: "Producción de una página web en HTML y CSS"
+                // },
                 {
                     title: "Enzym - jun.-nov. 2018",
                     content: "Trabajos en la página web enzym.io"

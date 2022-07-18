@@ -12,30 +12,37 @@ export const Achievements = () => {
 
     const achievements = [
         {
-            imgName: 'enzym-welcome.png',
+            imgName: text.enzymIcoImage,
             title: 'enzym',
-            description: text.desc1,
+            description: text.enzymIco,
+            linkUrl: `https://www.enzym.io/${text.enzymIcoPage}`,
+            imageList: []
+        },
+        {
+            imgName: text.enzymImage,
+            title: 'enzym',
+            description: text.enzym,
             linkUrl: `https://www.enzym.io/${text.enzymPage}`,
-            imageList: ['enzym-welcome.png', 'enzym-map.png', 'enzym-team.png']
+            imageList: []
         },
         {
             imgName: 'groupomania-welcome.png',
             title: 'Groupomania',
-            description: text.desc2,
+            description: text.groupomania,
             linkUrl: 'https://github.com/Ethnolatin/FredericDuchesne_7_04012021',
             imageList: ['groupomania-identification.png', 'groupomania-inscription.png', 'groupomania-homepage.png', 'groupomania-article.png', 'groupomania-userslist.png', 'groupomania-add.png', 'groupomania-modify.png']
         },
         {
             imgName: 'oh-my-food-1.png',
             title: 'ohmyfood',
-            description: text.desc3,
+            description: text.ohmyfood,
             linkUrl: 'https://ethnolatin.github.io/FredericDuchesne_3_08092020/',
             imageList: ['oh-my-food-1-mobile.png', 'oh-my-food-2-mobile.png', 'oh-my-food-3-mobile.png', 'oh-my-food-3-tablet.png', 'oh-my-food-3-desktop.png']
         },
         {
             imgName: text.cvHeader,
             title: 'CV',
-            description: text.desc4,
+            description: text.cv,
             linkUrl: `https://ethnolatin.github.io/CV-html-css/${text.cvPage}`,
             imageList: []
         },
@@ -58,10 +65,10 @@ export const Achievements = () => {
         <section id='achievements'>
             <h3>{text.title}</h3>
             <div className='list'>
-                {achievements.map((achievement) => {
+                {achievements.map((achievement, index) => {
                     const imgUrl=require(`../images/${achievement.imgName}`).default
                     return (
-                        <div className="card"  key={achievement.title}>
+                        <div className="card"  key={index}>
                             {showModal && 
                             <MoreImagesModal
                                 title={selectedAchievement.title}
