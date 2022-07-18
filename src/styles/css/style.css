@@ -160,6 +160,9 @@ header h1 {
 .uparrow:hover {
   color: #4E342E;
 }
+.uparrow:active {
+  color: #7CB342;
+}
 
 .portrait {
   display: block;

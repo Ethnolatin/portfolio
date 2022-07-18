@@ -33,7 +33,7 @@ export const Achievements = () => {
             imageList: ['oh-my-food-1-mobile.png', 'oh-my-food-2-mobile.png', 'oh-my-food-3-mobile.png', 'oh-my-food-3-tablet.png', 'oh-my-food-3-desktop.png']
         },
         {
-            imgName: 'cv-header.png',
+            imgName: text.cvHeader,
             title: 'CV',
             description: text.desc4,
             linkUrl: `https://ethnolatin.github.io/CV-html-css/${text.cvPage}`,

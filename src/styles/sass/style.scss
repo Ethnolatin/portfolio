@@ -168,6 +168,9 @@ header {
     &:hover {
         color: $primary;
     }
+    &:active {
+        color: $secondary;
+    }
 }
 
 .portrait {
