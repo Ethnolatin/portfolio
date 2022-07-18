@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3352f583.chunk.css",
-    "main.js": "/portfolio/static/js/main.926eb264.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.926eb264.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.ede07008.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.ede07008.js.map",
-    "static/js/2.255ba26b.chunk.js": "/portfolio/static/js/2.255ba26b.chunk.js",
-    "static/js/2.255ba26b.chunk.js.map": "/portfolio/static/js/2.255ba26b.chunk.js.map",
-    "static/js/3.f2824dbc.chunk.js": "/portfolio/static/js/3.f2824dbc.chunk.js",
-    "static/js/3.f2824dbc.chunk.js.map": "/portfolio/static/js/3.f2824dbc.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.053779e7.chunk.css",
+    "main.js": "/portfolio/static/js/main.d1023831.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d1023831.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.13963b42.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.13963b42.js.map",
+    "static/js/2.6d94e98d.chunk.js": "/portfolio/static/js/2.6d94e98d.chunk.js",
+    "static/js/2.6d94e98d.chunk.js.map": "/portfolio/static/js/2.6d94e98d.chunk.js.map",
+    "static/js/3.204039b6.chunk.js": "/portfolio/static/js/3.204039b6.chunk.js",
+    "static/js/3.204039b6.chunk.js.map": "/portfolio/static/js/3.204039b6.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.3352f583.chunk.css.map": "/portfolio/static/css/main.3352f583.chunk.css.map",
-    "static/js/2.255ba26b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.255ba26b.chunk.js.LICENSE.txt",
+    "static/css/main.053779e7.chunk.css.map": "/portfolio/static/css/main.053779e7.chunk.css.map",
+    "static/js/2.6d94e98d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6d94e98d.chunk.js.LICENSE.txt",
     "static/media/cv-header.png": "/portfolio/static/media/cv-header.954bcfbe.png",
     "static/media/enzym-map.png": "/portfolio/static/media/enzym-map.8aff6243.png",
     "static/media/enzym-team.png": "/portfolio/static/media/enzym-team.645b9ac8.png",
@@ -37,14 +37,15 @@
     "static/media/oh-my-food-3-tablet.png": "/portfolio/static/media/oh-my-food-3-tablet.c7ab6fa1.png",
     "static/media/panorama.png": "/portfolio/static/media/panorama.10da461b.png",
     "static/media/photo_id-220.jpg": "/portfolio/static/media/photo_id-220.d55a1e4d.jpg",
+    "static/media/photo_id.png": "/portfolio/static/media/photo_id.2a6214ad.png",
     "static/media/portrait.png": "/portfolio/static/media/portrait.e7eb18f9.png",
     "static/media/spain.32e1e489.svg": "/portfolio/static/media/spain.32e1e489.svg",
     "static/media/united-kingdom.2d19fed4.svg": "/portfolio/static/media/united-kingdom.2d19fed4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ede07008.js",
-    "static/js/2.255ba26b.chunk.js",
-    "static/css/main.3352f583.chunk.css",
-    "static/js/main.926eb264.chunk.js"
+    "static/js/runtime-main.13963b42.js",
+    "static/js/2.6d94e98d.chunk.js",
+    "static/css/main.053779e7.chunk.css",
+    "static/js/main.d1023831.chunk.js"
   ]
 }
