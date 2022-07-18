@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Context } from '../context/langContext'
-import texts from './texts'
+import texts from '../components/texts'
 
 
 export const Experience = () => {

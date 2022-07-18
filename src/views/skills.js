@@ -1,15 +1,15 @@
 import React, { useContext } from 'react'
 import { Context } from '../context/langContext'
-import texts from './texts'
+import texts from '../components/texts'
 
 
 export const Skills = () => {
     const {lang} = useContext(Context)
     const text = texts[lang].skills
 
-    const skills = ['HTML / CSS', 'JavaScript', 'ReactJS', 'Git / Github', text.english, text.spanish]
-    const notions = ['TypeScript', `SEO / ${text.access}`, 'NodeJS / Express', 'API REST', 'MongoDB / MySQL']
-    const inprogress = ['Svelte', 'Tailwind', 'Redux', 'NextJS', 'GraphQL', 'Jest']
+    const skills = ['JavaScript', 'ReactJS', 'HTML / CSS', 'Sass / @emotion/styled', 'Git / Github', `${text.english} / ${text.spanish}`]
+    const notions = ['TypeScript', 'Jest', 'Tailwind CSS', `SEO / ${text.access}`, 'NodeJS / Express', 'API REST', 'MongoDB / MySQL']
+    const inprogress = ['Wordpress', 'SvelteJS', 'NextJS', 'GraphQL', 'Redux']
     
     return (
         <section id='skills'>

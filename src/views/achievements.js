@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react' 
 import { Context } from '../context/langContext'
-import { MoreImagesModal } from "./more-images"
-import texts from './texts'
+import { MoreImagesModal } from "../components/more-images"
+import texts from '../components/texts'
 
 
 export const Achievements = () => {
