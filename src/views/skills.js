@@ -7,7 +7,7 @@ export const Skills = () => {
     const {lang} = useContext(Context)
     const text = texts[lang].skills
 
-    const skills = ['JavaScript', 'ReactJS', 'HTML / CSS', 'Sass / @emotion/styled', 'Git / Github', `${text.english} / ${text.spanish}`]
+    const skills = ['JavaScript', 'ReactJS', 'HTML / CSS', 'Sass / Emotion', 'Git / Github', `${text.english} / ${text.spanish}`]
     const notions = ['TypeScript', 'Jest', 'Tailwind CSS', 'SvelteJS', `SEO / ${text.access}`, 'NodeJS / Express', 'API REST', 'MongoDB / MySQL']
     const inprogress = ['Wordpress', 'NextJS', 'GraphQL', 'Redux']
     

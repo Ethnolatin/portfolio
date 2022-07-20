@@ -180,8 +180,13 @@ header h1 {
 }
 
 .skill {
+  display: flex;
   width: 35%;
-  max-width: 20rem;
+  min-width: 8rem;
+  max-width: 18rem;
+  min-height: 2rem;
+  align-items: center;
+  justify-content: center;
   margin: 0.5rem;
   border-radius: 0.5rem;
   padding: 0.5rem;
@@ -190,9 +195,13 @@ header h1 {
 }
 
 .notion {
+  display: flex;
   width: 25%;
-  min-width: 10rem;
-  max-width: 15rem;
+  min-width: 7rem;
+  max-width: 13.5rem;
+  min-height: 2rem;
+  align-items: center;
+  justify-content: center;
   margin: 0.4rem;
   border-radius: 0.5rem;
   padding: 0.4rem;
@@ -201,9 +210,13 @@ header h1 {
 }
 
 .wip {
+  display: flex;
   width: 15%;
   min-width: 6rem;
   max-width: 9rem;
+  min-height: 1.5rem;
+  align-items: center;
+  justify-content: center;
   margin: 0.3rem;
   border-radius: 0.5rem;
   padding: 0.3rem;
@@ -353,7 +366,7 @@ header h1 {
   height: 22rem;
 }
 .items .card-header {
-  height: 70%;
+  height: 60%;
 }
 .items .card-header-img {
   object-fit: cover;

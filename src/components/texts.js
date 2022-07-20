@@ -47,12 +47,12 @@ const traductions = {
             enzymIco: "Intégration de la page ICO d'Enzym d'après maquette (ReactJS, Sass, Emotion)",
 			enzymIcoImage: "enzym-ico-fr.png",
 			enzymIcoPage: "ico.enzym.io",
-            enzym: "Participation à la landing page enzym.io et à son back-office",
+            enzym: "Participation à la landing page enzym.io et à son back-office (ReactJS, TypeScript, CSS)",
 			enzymImage: "enzym-fr.png",
 			enzymPage: "",
-			groupomania: "MVP de réseau social d'entreprise façon Reddit (ReactJS - NodeJS - MySQL)",
-            ohmyfood: "Page web mobile first en HTML et CSS à partir d'une maquette et d'un brief",
-            cv: "Mon CV en ligne, en 3 langues, juste en HTML et CSS",
+			groupomania: "MVP de réseau social d'entreprise façon Reddit (ReactJS, NodeJS, MySQL)",
+            ohmyfood: "Page web mobile first à partir d'une maquette et d'un brief (HTML, CSS)",
+            cv: "Mon CV en ligne, en 3 langues (HTML, CSS)",
 			cvHeader: "cv-header-fr.png",
             cvPage: "",
             webPage: "Page web",
@@ -71,7 +71,7 @@ const traductions = {
                 },
                 {
                     title: "Enzym - juil. 2021",
-                    content: "Mises à jour de la landing page enzym.io"
+                    content: "Mises à jour de la landing page enzym.io (ReactJS, TypeScript, CSS)"
                 },
                 {
                     title: "OpenClassrooms - juin 2021",
@@ -158,12 +158,12 @@ const traductions = {
             enzymIco: "Integration of Enzym's ICO page according to a model (ReactJS, Sass, Emotion).",
 			enzymIcoImage: "enzym-ico-en.png",
 			enzymIcoPage: "ico.enzym.io/en",
-            enzym: "Participation in the enzym.io landing page and its back-office",
+            enzym: "Participation in the enzym.io landing page and its back-office (ReactJS, TypeScript, CSS)",
 			enzymImage: "enzym-en.png",
 			enzymPage: "en",
-			groupomania: "MVP of a Reddit-style corporate social network (ReactJS - NodeJS - MySQL)",
-            ohmyfood: "Mobile first web page in HTML and CSS from a mockup and a brief",
-            cv: "My CV online, in 3 languages, just in HTML and CSS",
+			groupomania: "MVP of a Reddit-style corporate social network (ReactJS, NodeJS, MySQL)",
+            ohmyfood: "Mobile first web page from a mockup and a brief (HTML, CSS)",
+            cv: "My CV online, in 3 languages (HTML, CSS)",
 			cvHeader: "cv-header-en.png",
 			cvPage: "en.html",
             webPage: "Web page",
@@ -182,7 +182,7 @@ const traductions = {
                 },
                 {
                     title: "Enzym - July 2021",
-                    content: "Updates of enzym.io landing page"
+                    content: "Updates of enzym.io landing page (ReactJS, TypeScript, CSS)"
                 },
                 {
                     title: "OpenClassrooms - June 2021",
@@ -259,7 +259,7 @@ const traductions = {
             title1: "Competencias",
             title2: "Nociones",
             title3: "En curso...",
-            english: "inglés",
+            english: "Inglés",
             spanish: "Español",
             access: "Accesibilidad",
         },
@@ -268,12 +268,12 @@ const traductions = {
             enzymIco: "Integración de la página ICO de Enzym según modelo (ReactJS, Sass, Emotion).",
 			enzymIcoImage: "enzym-ico-en.png",
 			enzymIcoPage: "ico.enzym.io/en",
-            enzym: "Participación en la landing page de Enzym.io y su back-office",
+            enzym: "Participación en la landing page enzym.io y en su back-office (ReactJS, TypeScript, CSS)",
 			enzymImage: "enzym-en.png",
 			enzymPage: "en",
-			groupomania: "MVP de una red social corporativa estilo Reddit (ReactJS - NodeJS - MySQL)",
-            ohmyfood: "Página web mobile first en HTML y CSS a partir de una maqueta y un resumen",
-            cv: "Mi CV online, en 3 idiomas, solo con HTML y CSS",
+			groupomania: "MVP de una red social corporativa estilo Reddit (ReactJS, NodeJS, MySQL)",
+            ohmyfood: "Página web mobile first a partir de una maqueta y un resumen (HTML, CSS)",
+            cv: "Mi CV online, en 3 idiomas (HTML, CSS)",
 			cvHeader: "cv-header-en.png",
 			cvPage: "es.html",
             webPage: "Página web",
@@ -284,7 +284,7 @@ const traductions = {
             items: [
                 {
                     title: "Enzym - jul. 2021",
-                    content: "Actualizaciones de la página web enzym.io"
+                    content: "Actualizaciones de la página web enzym.io (ReactJS, TypeScript, CSS)"
                 },
                 {
                     title: "OpenClassrooms - jun. 2021",
