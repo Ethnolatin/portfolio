@@ -19,6 +19,13 @@ export const Achievements = () => {
             imageList: []
         },
         {
+            imgName: 'enquete.png',
+            title: 'Lycée de Mourenx',
+            description: text.survey,
+            // linkUrl: '',
+            imageList: ['enquete-welcome.png', 'enquete-mobile.png', 'enquete-tablet.png']
+        },
+        {
             imgName: text.enzymImage,
             title: 'enzym',
             description: text.enzym,
@@ -29,7 +36,7 @@ export const Achievements = () => {
             imgName: 'groupomania-welcome.png',
             title: 'Groupomania',
             description: text.groupomania,
-            linkUrl: 'https://github.com/Ethnolatin/FredericDuchesne_7_04012021',
+            // linkUrl: 'https://github.com/Ethnolatin/FredericDuchesne_7_04012021',
             imageList: ['groupomania-identification.png', 'groupomania-inscription.png', 'groupomania-homepage.png', 'groupomania-article.png', 'groupomania-userslist.png', 'groupomania-add.png', 'groupomania-modify.png']
         },
         {
@@ -84,10 +91,14 @@ export const Achievements = () => {
                                 <p>{achievement.description}</p>
                             </div>
                             <div className="card-footer">
-                                <button onClick={() => {window.open(`${achievement.linkUrl}`, '_blank')}}>{text.webPage}</button>  
+                                {achievement.linkUrl ?
+                                    <button onClick={() => {window.open(`${achievement.linkUrl}`, '_blank')}}>{text.webPage}</button>
+                                    : ""
+                                }
                                 {achievement.imageList.length ?
                                     <button onClick={() => handleClick(achievement)}>{text.images}</button>
-                                    : ""}
+                                    : ""
+                                }
                             </div>
                         </div>
                     )

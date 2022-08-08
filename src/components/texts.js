@@ -44,9 +44,10 @@ const traductions = {
         },
         achievements: {
             title: "Réalisations",
-            enzymIco: "Intégration de la page ICO d'Enzym d'après maquette (ReactJS, Sass, Emotion)",
+            enzymIco: "Page ICO d'Enzym d'après maquette (ReactJS, Sass, Emotion)",
 			enzymIcoImage: "enzym-ico-fr.png",
 			enzymIcoPage: "ico.enzym.io",
+            survey: "QCM d'auto-évaluation en ligne (ReactJS, NodeJS, Express, MySQL)",
             enzym: "Participation à la landing page enzym.io et à son back-office (ReactJS, TypeScript, CSS)",
 			enzymImage: "enzym-fr.png",
 			enzymPage: "",
@@ -62,12 +63,16 @@ const traductions = {
             title: "Expérience",
             items: [
                 {
-					title: "Kestio - depuis décembre 2021",
+                    title: "Enzym - mai 2022",
+                    content: "Intégration de la page ICO d'Enzym d'après maquette (ReactJS, Sass, Emotion)"
+                },
+                {
+					title: "Kestio - depuis déc. 2021",
                     content: "Chargé des tests de non-régression (NR) projet agile :  écriture de tests automatisés (Jest), rédaction de procédures de tests NR sur la base de scénarios, organisation des tests NR, participation aux sessions de tests NR."
 				},
                 {
-                    title: "Enzym - mai 2022",
-                    content: "Intégration de la page ICO d'Enzym d'après maquette (ReactJS, Sass, Emotion)"
+                    title: "Cité Scolaire de Mourenx - nov. 2021",
+                    content: "Réalisation d'un QCM en ligne pour l'évaluation de chacun des 3 établissements de la cité scolaire à l'attention des élèves, de leurs parents et des personnels, enseignants ou non (ReactJS, NodeJS, Express, MySql, Sass)"
                 },
                 {
                     title: "Enzym - juil. 2021",
@@ -155,9 +160,10 @@ const traductions = {
         },
         achievements: {
             title: "Achievements",
-            enzymIco: "Integration of Enzym's ICO page according to a model (ReactJS, Sass, Emotion).",
+            enzymIco: "Enzym's ICO page according to a model (ReactJS, Sass, Emotion).",
 			enzymIcoImage: "enzym-ico-en.png",
 			enzymIcoPage: "ico.enzym.io/en",
+            survey: "Online self-assessment MCQ (ReactJS, NodeJS, Express, MySQL)",
             enzym: "Participation in the enzym.io landing page and its back-office (ReactJS, TypeScript, CSS)",
 			enzymImage: "enzym-en.png",
 			enzymPage: "en",
@@ -173,12 +179,16 @@ const traductions = {
             title: "Experience",
             items: [
 				{
-					title: "Kestio - Since December 2021",
+                    title: "Enzym - May 2022",
+                    content: "Integration of Enzym's ICO page according to a model (ReactJS, Sass, Emotion)"
+                },
+                {
+					title: "Kestio - Since Dec. 2021",
                     content: "Non-regression (NR) tests manager in agile project: writing of automated tests (Jest), writing of NR test procedures based on scenarios, organization of NR tests, participation in NR test sessions."
 				},
                 {
-                    title: "Enzym - May 2022",
-                    content: "Integration of Enzym's ICO page according to a model (ReactJS, Sass, Emotion)"
+                    title: "Cité Scolaire de Mourenx - Nov. 2021",
+                    content: "Implementation of an online MCQ for the evaluation of each of the 3 establishments of the school district intended for the students, their parents and the staff, teachers or not (ReactJS, NodeJS, Express, MySql, Sass)"
                 },
                 {
                     title: "Enzym - July 2021",
@@ -268,6 +278,7 @@ const traductions = {
             enzymIco: "Integración de la página ICO de Enzym según modelo (ReactJS, Sass, Emotion).",
 			enzymIcoImage: "enzym-ico-en.png",
 			enzymIcoPage: "ico.enzym.io/en",
+            survey: "MCQ de autoevaluación en línea (ReactJS, NodeJS, Express, MySQL)",
             enzym: "Participación en la landing page enzym.io y en su back-office (ReactJS, TypeScript, CSS)",
 			enzymImage: "enzym-en.png",
 			enzymPage: "en",
@@ -280,8 +291,20 @@ const traductions = {
             images: "Imágenes",
         },
         experience: {
-            title: "Expérience",
+            title: "Experiencia",
             items: [
+                {
+                    title: "Enzym - mayo 2022",
+                    content: "Integración de la página ICO de Enzym basada en un modelo (ReactJS, Sass, Emotion)"
+                },
+                {
+					title: "Kestio - desde dic. 2021",
+                    content: "Redacción de pruebas automatizadas (Jest), redacción de procesos de pruebas NR basados en escenarios, organización de las pruebas NR, participación en las sesiones de prueba NR."
+				},
+                {
+                    title: "Cité Scolaire de Mourenx - nov. 2021",
+                    content: "Realización de un MCQ en línea para la evaluación de cada uno de los 3 establecimientos del distrito escolar destinado a los estudiantes, sus padres y el personal, docentes o no (ReactJS, NodeJS, Express, MySql, Sass)"
+                },
                 {
                     title: "Enzym - jul. 2021",
                     content: "Actualizaciones de la página web enzym.io (ReactJS, TypeScript, CSS)"
