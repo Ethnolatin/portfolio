@@ -32,7 +32,7 @@ export const Achievements = () => {
       imgName: text.enzymImage,
       title: "enzym",
       description: text.enzym,
-      linkUrl: `https://www.enzym.io/${text.enzymPage}`,
+      linkUrl: `https://enzym.io/${text.enzymPage}`,
       imageList: [],
     },
     {
