@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react"
 import { Context } from "../context/langContext"
 import { MoreImagesModal } from "../components/more-images"
+import { StyledCard, StyledList } from "../components/styled-components"
 import texts from "../components/texts"
 
 export const Achievements = () => {
@@ -10,6 +11,13 @@ export const Achievements = () => {
   const text = texts[lang].achievements
 
   const achievements = [
+    {
+      imgName: text.enzymImage,
+      title: "enzym",
+      description: text.enzym,
+      linkUrl: `https://enzym.io/${text.enzymPage}`,
+      imageList: [],
+    },
     {
       imgName: text.enzymIcoImage,
       title: "enzym",
@@ -27,13 +35,6 @@ export const Achievements = () => {
         "enquete-mobile.png",
         "enquete-tablet.png",
       ],
-    },
-    {
-      imgName: text.enzymImage,
-      title: "enzym",
-      description: text.enzym,
-      linkUrl: `https://enzym.io/${text.enzymPage}`,
-      imageList: [],
     },
     {
       imgName: "groupomania-welcome.png",
@@ -88,11 +89,11 @@ export const Achievements = () => {
   return (
     <section id="achievements">
       <h3>{text.title}</h3>
-      <div className="list">
+      <StyledList>
         {achievements.map((achievement, index) => {
           const imgUrl = require(`../images/${achievement.imgName}`).default
           return (
-            <div className="card" key={index}>
+            <StyledCard key={index}>
               {showModal && (
                 <MoreImagesModal
                   title={selectedAchievement.title}
@@ -101,14 +102,14 @@ export const Achievements = () => {
                   handleCloseModal={handleCloseModal}
                 />
               )}
-              <div className="card-header">
+              <header>
                 <img src={imgUrl} alt={achievement.title} />
-              </div>
-              <div className="card-body">
+              </header>
+              <main>
                 <h1>{achievement.title}</h1>
                 <p>{achievement.description}</p>
-              </div>
-              <div className="card-footer">
+              </main>
+              <footer>
                 {achievement.linkUrl ? (
                   <button
                     onClick={() => {
@@ -127,11 +128,11 @@ export const Achievements = () => {
                 ) : (
                   ""
                 )}
-              </div>
-            </div>
+              </footer>
+            </StyledCard>
           )
         })}
-      </div>
+      </StyledList>
     </section>
   )
 }

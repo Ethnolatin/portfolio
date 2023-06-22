@@ -7,7 +7,7 @@ const traductions = {
       aboutMe: "À propos de moi",
     },
     header: {
-      title: "Développeur Web",
+      title: "Développeur Web\n& Testeur QA",
       std1: "Bonjour, je m'appelle ",
       bold1: "Frédéric Duchesne",
       std2: ", je suis ",
@@ -30,7 +30,7 @@ const traductions = {
     },
     slider: {
       part1: "J'ai codé ce portfolio en ",
-      part2: "JavaScript (ReactJS) et CSS (Sass)",
+      part2: "JavaScript (ReactJS) et CSS (Sass + @emotion/styled)",
       part3: "Code disponible sur mon compte GitHub (voir ",
       part4: '"À propos de moi"',
     },
@@ -44,15 +44,14 @@ const traductions = {
     },
     achievements: {
       title: "Réalisations",
+      enzym:
+        "Nouvelle landing page enzym.io d'après maquette (ReactJS, TypeScript, @emotion/styled)",
+      enzymImage: "new-enzym-fr.png",
+      enzymPage: "",
       enzymIco: "Page ICO d'Enzym d'après maquette (ReactJS, Sass, Emotion)",
       enzymIcoImage: "enzym-ico-fr.png",
       enzymIcoPage: "preprod.ico.enzym.io",
-      survey:
-        "QCM d'auto-évaluation en ligne (ReactJS, NodeJS, Express, MySQL)",
-      enzym:
-        "Participation à la landing page enzym.io et à son back-office (ReactJS, TypeScript, CSS)",
-      enzymImage: "enzym-fr.png",
-      enzymPage: "",
+      survey: "QCM d'évaluation en ligne (ReactJS, NodeJS, Express, MySQL)",
       groupomania:
         "MVP de réseau social d'entreprise façon Reddit (ReactJS, NodeJS, MySQL)",
       ohmyfood:
@@ -107,6 +106,8 @@ const traductions = {
     },
     aboutMe: {
       title: "À propos de moi...",
+      more: "En savoir plus...",
+
       items: [
         {
           imgName: "portrait.png",
@@ -120,7 +121,7 @@ const traductions = {
           imgName: "github.png",
           title: "Compte GitHub",
           description:
-            "avec le code de différents projets et parfois la visualisation de leur rendu web via github-pages.",
+            "avec le code de différents projets et parfois leur rendu web via github-pages.",
           linkUrl: "https://github.com/Ethnolatin",
         },
       ],
@@ -135,7 +136,7 @@ const traductions = {
       aboutMe: "About me",
     },
     header: {
-      title: "Web Developer",
+      title: "Web Developer\n& QA Tester",
       std1: "Hello, my name is ",
       bold1: "Frédéric Duchesne",
       std2: ", I am a ",
@@ -158,7 +159,7 @@ const traductions = {
     },
     slider: {
       part1: "I coded this portfolio in ",
-      part2: "JavaScript (ReactJS) and CSS (Sass)",
+      part2: "JavaScript (ReactJS) and CSS (Sass + @emotion/styled)",
       part3: "Code available on my GitHub account (see ",
       part4: '"About me"',
     },
@@ -172,15 +173,15 @@ const traductions = {
     },
     achievements: {
       title: "Achievements",
+      enzym:
+        "New enzym.io landing page according to a model (ReactJS, TypeScript, @emotion/styled)",
+      enzymImage: "new-enzym-en.png",
+      enzymPage: "en",
       enzymIco:
         "Enzym's ICO page according to a model (ReactJS, Sass, Emotion).",
       enzymIcoImage: "enzym-ico-en.png",
       enzymIcoPage: "preprod.ico.enzym.io/en",
-      survey: "Online self-assessment MCQ (ReactJS, NodeJS, Express, MySQL)",
-      enzym:
-        "Participation in the enzym.io landing page and its back-office (ReactJS, TypeScript, CSS)",
-      enzymImage: "enzym-en.png",
-      enzymPage: "en",
+      survey: "Online assessment MCQ (ReactJS, NodeJS, Express, MySQL)",
       groupomania:
         "MVP of a Reddit-style corporate social network (ReactJS, NodeJS, MySQL)",
       ohmyfood: "Mobile first web page from a mockup and a brief (HTML, CSS)",
@@ -234,6 +235,8 @@ const traductions = {
     },
     aboutMe: {
       title: "About me...",
+      more: "Know more...",
+
       items: [
         {
           imgName: "portrait.png",
@@ -247,7 +250,7 @@ const traductions = {
           imgName: "github.png",
           title: "GitHub account",
           description:
-            "with the code of different projects and sometimes the visualization of their web rendering via github-pages.",
+            "with the code of different projects and sometimes their web rendering via github-pages.",
           linkUrl: "https://github.com/Ethnolatin",
         },
       ],
@@ -262,7 +265,7 @@ const traductions = {
       aboutMe: "Acerca de mí",
     },
     header: {
-      title: "Desarrollador Web",
+      title: "Desarrollador Web\n& QA Tester",
       intro: "",
       std1: "Hola, me llamo ",
       bold1: "Frédéric Duchesne",
@@ -284,7 +287,7 @@ const traductions = {
     },
     slider: {
       part1: "Desarrollé este portafolio en ",
-      part2: "JavaScript (ReactJS) y CSS (Sass)",
+      part2: "JavaScript (ReactJS) y CSS (Sass + @emotion/styled)",
       part3: "Código disponible en mi cuenta GitHub (ver ",
       part4: '"Acerca de mí"',
     },
@@ -298,16 +301,15 @@ const traductions = {
     },
     achievements: {
       title: "Logros",
+      enzym:
+        "Nueva landing page enzym.io segun modelo (ReactJS, TypeScript, @emotion/styled)",
+      enzymImage: "new-enzym-en.png",
+      enzymPage: "en",
       enzymIco:
         "Integración de la página ICO de Enzym según modelo (ReactJS, Sass, Emotion).",
       enzymIcoImage: "enzym-ico-en.png",
       enzymIcoPage: "preprod.ico.enzym.io/en",
-      survey:
-        "MCQ de autoevaluación en línea (ReactJS, NodeJS, Express, MySQL)",
-      enzym:
-        "Participación en la landing page enzym.io y en su back-office (ReactJS, TypeScript, CSS)",
-      enzymImage: "enzym-en.png",
-      enzymPage: "en",
+      survey: "MCQ de evaluación en línea (ReactJS, NodeJS, Express, MySQL)",
       groupomania:
         "MVP de una red social corporativa estilo Reddit (ReactJS, NodeJS, MySQL)",
       ohmyfood:
@@ -362,6 +364,8 @@ const traductions = {
     },
     aboutMe: {
       title: "Acerca de mí...",
+      more: "Saber más...",
+
       items: [
         {
           imgName: "portrait.png",
@@ -375,7 +379,7 @@ const traductions = {
           imgName: "github.png",
           title: "Cuenta GitHub",
           description:
-            "con el código de diferentes proyectos y, a veces, la visualización de su renderizado web a través de github-pages.",
+            "con el código de diferentes proyectos y, a veces, su renderizado web a través de github-pages.",
           linkUrl: "https://github.com/Ethnolatin",
         },
       ],

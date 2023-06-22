@@ -8,20 +8,25 @@
 
   @font-face {
     font-family: "Helvetica-Thin";
-    src: url(../..//fonts/helvetica-lt-35-thin.ttf);
+    src: url(../../fonts/helvetica-lt-35-thin.ttf);
   }
 
-/* ========== GENERAL ========== */
+/* ========== COLORS ========== */
 
-$primary: #4E342E;
-$secondary: #7CB342;
+:root {
+    --primary-color: #CCC;
+    --secondary-color: #222;
+    --tertiary-color: #7CB342;
+}
+
+/* ========== GENERAL ========== */
 
 body {
     max-width: 1200px;
     margin: auto;
     margin-bottom: 2rem;
     font-family: 'Helvetica', sans-serif;
-    color: $primary;
+    color: var(--secondary-color);
 }
 
 h1 {
@@ -41,7 +46,7 @@ h2 {
 h3 {
     text-align: center;
     margin-top: 1rem;
-    border-top: 2px solid $secondary;
+    border-top: 2px solid var(--tertiary-color);
     padding-top: 1rem;
     letter-spacing: 0.05rem;
 }
@@ -59,10 +64,6 @@ p {
     padding: 0.1rem;
 }
 
-strong {
-    letter-spacing: 0.1rem;
-}
-
 main {
     width: 100%;
     margin: auto;
@@ -72,326 +73,28 @@ main {
 }
 
 section {
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     & button {
         margin: 1.5rem 0 0.5rem 0;
-        border: 2px solid $secondary;
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        border: 2px solid var(--tertiary-color);
         border-radius: 0.5rem;
         padding: 0.5rem;
         font-size: 1rem;
         cursor: pointer;
         &:hover {
-            background-color: $secondary;
+            background-color: var(--tertiary-color);
             color: white;
-            border: 2px solid $primary;
+            border: 2px solid var(--primary-color);
         }
     }
 }
 
-.container-langs {
-    position: absolute;
-    top: 3px;
-    right: 0px;
-    max-width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    & img {
-        width: 2rem;
-        height: 2rem;
-        margin: 0 4px;
-        cursor: pointer;
-    }
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    & > img {
-        display: none;
-    }
-    & section {
-        width: 40%;
-        min-width: 320px;
-    }
-    & h1 {
-        margin: 0 auto;
-        padding: 0.5rem 3rem;
-        color: white;
-    }
-}
-
-.navbar {
-    position: relative;
-    width: 100%;
-    background-color: $secondary;
-    & button {
-        margin: 0.5rem;
-        cursor: pointer;
-    }
-    &-links {
-        background-color: $secondary;
-        height: 0;
-        overflow: hidden;
-        font-weight: bold;
-        & ul {
-            margin: 0 1rem 0.5rem;
-        }
-        & li {
-            padding: 0.2rem;
-        }
-        &-show {
-            height: auto;
-        }
-    }
-    &-link {
-        cursor: pointer;
-        padding: 0.2rem 0.4rem;
-        &:hover {
-            background-color: $primary;
-            color: $secondary;
-        }
-    }
-
-}
-
-.uparrow {
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    font-size: 2rem;
-    color: $secondary;
-    cursor: pointer;
-    &:hover {
-        color: $primary;
-    }
-    &:active {
-        color: $secondary;
-    }
-}
-
-.portrait {
-    display: block;
-    margin: 0.5rem auto;
-    border-radius: 50%;
-    height: 8rem;
-    border: 5px solid $secondary;
-}
-
-.list {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-}
-
-.skill {
-    display: flex;
-    width: 35%;
-    min-width: 8rem;
-    max-width: 18rem;
-    min-height: 2rem;
-    align-items: center;
-    justify-content: center;
-    margin: 0.5rem;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    background-color: $primary;
-    color: white;
-}
-
-.notion {
-    display: flex;
-    width: 25%;
-    min-width: 7rem;
-    max-width: 13.5rem;
-    min-height: 2rem;
-    align-items: center;
-    justify-content: center;
-    margin: 0.4rem;
-    border-radius: 0.5rem;
-    padding: 0.4rem;
-    background-color: $primary;
-    color: white;
-}
-
-.wip {
-    display: flex;
-    width: 15%;
-    min-width: 6rem;
-    max-width: 9rem;
-    min-height: 1.5rem;
-    align-items: center;
-    justify-content: center;
-    margin: 0.3rem;
-    border-radius: 0.5rem;
-    padding: 0.3rem;
-    background-color: $primary;
-    color: white;
-}
-
-
-.experience {
-    width: 70%;
-    max-width: 600px;
-    position: relative;
-    margin: 0.5rem;
-    border-radius: 0.5rem;
-    border-top-left-radius: 0;
-    padding: 0.5rem;
-    background-color: $secondary;
-    &::before {
-        content: "";
-        height: calc(100% + 20px);
-        width: 5px;
-        background-color: $secondary;
-        position: absolute;
-        top: -10px;
-        left: -20px;
-    }
-    &::after {
-        content: "";
-        height: 15px;
-        width: 15px;
-        border-radius: 50%;
-        background-color: $primary;
-        position: absolute;
-        top: -10px;
-        left: -25px;
-    }
-    & p {
-        text-align: left;
-    }
-}
-
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    min-width: 240px;
-    height: 16rem;
-    margin: 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
-    &-header {
-        position: relative;
-        z-index: 0;
-        display: flex;
-        height: 40%;
-        overflow: hidden;
-        & img {
-            z-index: -1;
-            position: absolute;
-            top: 0;
-            width: 100%;
-            border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-            border-radius: 0.5rem 0.5rem 0 0;
-            object-fit: cover;
-        }
-    }
-    &-body {
-        overflow: hidden;
-        max-height: 35%;
-        padding: 0.5rem;
-        & h1 {
-            font-size: 1.5rem;
-            margin: 0 0 0.5rem 0;
-        }
-        & p {
-            text-align: left;
-        }
-    }
-    &-footer {
-        position: absolute;
-        bottom: 0;
-        display: flex;
-        width: calc(100% - 1rem);
-        height: 2rem;
-        padding: 0.5rem;
-        justify-content: space-between;
-        & button {
-            margin: 0;
-            padding: 0.3rem;
-            font-size: 0.8rem;
-        }
-    }
-}
-
-.modale {
-    position: relative;
-    overflow: auto;
-    outline: none;
-    max-width: 95vw;
-    max-height: 95vh;
-    left: 50%;
-    right: auto;
-    top: 50%;
-    bottom: auto;
-    transform: translate(-50%,-50%);
-    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 0.5rem;
-    background-color: black;
-    color: white;
-    &-close {
-        display: flex;
-        justify-content: flex-end;
-        padding: 0.5rem;
-        padding-bottom: 0;
-    }
-    & h1 {
-        margin: 0 0 0.6rem 0;
-    }
-    &-header {
-        display: flex;
-        flex-direction: column;
-        position: sticky;
-        top: 0;
-        z-index: 100;
-        background-color: black;
-    }
-    &-body {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        min-height: 50px;
-        & img {
-            display: inline-block;
-            max-height: 80vh;
-            max-width: 80vw;
-            border: 1px solid white;
-            border-radius: 0.4rem;
-            padding: 1rem;
-            margin: 0.5rem auto;
-            object-fit: contain;
-        }
-    }
-}
-
-.items .card {
-    cursor: pointer;
-    height: 22rem;
-    &-header {
-        height: 60%;
-        &-img {
-            object-fit: cover;
-        }
-    }
-}
-
-.slider {
-    overflow: hidden;
-    width: 100%;
-    padding: 0.2rem 0;
-    background-color: $secondary;
-    font-size: 1.1rem;
-    & p {
-        width: 300%;
-        animation: slide 12s linear infinite;
-    }
+.ReactModal__Overlay--after-open {
+    z-index: 5;
 }
 
 @keyframes slide {
